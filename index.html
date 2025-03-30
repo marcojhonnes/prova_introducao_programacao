@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>PROVA DE MULTIPLA ESCOLHA</h1>
+    <form action="" class="container">
+         <h2>Exercícios para Escrever Pseudocódigo (Portugol)</h2>
+         <p>
+           1- Cálculo de Área de um Retângulo
+ Escreva um pseudocódigo que receba a base e a altura de um retângulo e calcule sua área.
+         </p>
+         <ul>
+            <li>
+                <input type="radio" name="opcao1" value="a"> a)Inicio <br>
+            Escreva("Digite a base do retângulo: ") <br>
+            Leia(base)
+            Escreva("Digite a altura do retângulo: ") <br>
+            Leia(altura) <br>
+            area ← base + altura   // ERRO: a área deve ser calculada com multiplicação <br>
+            Escreva("A área do retângulo é: ", area) <br>
+        Fim
+            </li>
+         <br>
+           <li>
+            <input type="radio" name="opcao1" value="b"> b) Inicio <br>
+           base ← 10 <br>
+           altura ← 5 <br>
+           area ← base * altura <br>
+           Escreva("A área do retângulo é: ", area) <br>
+       Fim
+           </li>
+        <br>
+           <li>
+            <input type="radio" name="opcao1" value="c"> c) Inicio <br>
+           Escreva("Digite a base do retângulo: ") <br>
+           Leia(altura)   // ERRO: Deveria ser "Leia(base)" <br>
+           Escreva("Digite a altura do retângulo: ") <br>
+           Leia(base)   // ERRO: Deveria ser "Leia(altura)" <br>
+           area ← base * altura <br>
+           Escreva("A área do retângulo é: ", area) <br>
+       Fim
+           </li>
+        <br>
+          <li>
+            <input type="radio" name="opcao1" value="d"> d) <br>
+            Escreva("Digite a base do retângulo: ") <br>
+            Escreva("Digite a altura do retângulo: ") <br>
+            Leia(altura) <br>
+            area ← base * altura <br>
+            Escreva("A área do retângulo é: ", area)
+          </li>
+        <br>
+           <li>
+            <input type="radio" name="opcao1" value="e"> e) Inicio <br>
+           Escreva("Digite a base do retângulo: ") <br>
+           Leia(base) <br>
+           Escreva("Digite a altura do retângulo: ") <br>
+           Leia(altura) <br>
+           area ← base * altura <br>
+           Escreva("A área do retângulo é: ", area) <br>
+       Fim
+           </li>
+        <br> <br> <br>
+           <button type="button" onclick="verificarEscolha1()">Confirmar</button>
+           <h2 id="resultado1"></h2>
+           <h2 id="respostaCerta1"></h2>
+            <p>
+         </ul>
+        
+            2.Conversão de Temperatura
+ Escreva um pseudocódigo que receba uma temperatura em graus Celsius e a converta para Fahrenheit. <br>A fórmula de conversão é:
+ F=(C×9/5)+32F = (C \times 9/5) + 32F=(C×9/5)+32
+         </p>
+         <li>
+            <input type="radio" name="opcao2" value="a"> a) Inicio <br>
+         Escreva("Digite a base do retângulo: ") <br>
+         Leia(base) <br>
+         Escreva("Digite a altura do retângulo: ") <br>
+         Leia(altura) <br>
+         area ← base + altura   // ERRO: a área deve ser calculada com multiplicação <br>
+         Escreva("A área do retângulo é: ", area) <br>
+     Fim
+         </li>
+      <br>
+
+      <li>
+        <input type="radio" name="opcao2" value="b"> b) Inicio <br>
+      Escreva("Digite a base do retângulo: ") <br>
+      Escreva("Digite a altura do retângulo: ") <br>
+      Leia(base) <br>
+      area ← base * altura <br>
+      Escreva("A área do retângulo é: ", area) <br>
+  Fim      
+      </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao2" value="c"> c) Inicio <br>
+        Escreva("Digite a base do retângulo: ") <br>
+        Leia(altura) <br>
+        Escreva("Digite a altura do retângulo: ") <br>
+        Leia(base) <br>
+        area ← base * altura <br>
+        Escreva("A área do retângulo é: ", area) <br>
+    Fim <br>
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao2" value="d"> d) Inicio <br>
+        Escreva("Digite a base do retângulo: ") <br>
+        Leia(base) <br>
+        Escreva("Digite a altura do retângulo: ") <br>
+        Leia(altura) <br>
+        area ← base * altura <br>
+        Escreva("A área do retângulo é: ", area) <br>
+    Fim
+        </li>
+     <br>
+     <li>
+        <input type="radio" name="opcao2" value="e"> e) Inicio <br>
+     base ← 10 <br>
+     altura ← 5 <br>
+     area ← base * altura <br>
+     Escreva("A área do retângulo é: ", area) <br>
+ Fim <br>
+     </li>
+     <br> <br> <br>
+        <button type="button" onclick="verificarEscolha2()">Confirmar</button>
+        <h2 id="resultado2"></h2>
+        <h2 id="respostaCerta2"></h2>
+         <p>
+            03- Cálculo do Volume de uma Caixa
+            Escreva um pseudocódigo que receba a largura, a altura e a profundidade de uma caixa e calcule seu volume.
+         </p>
+         <li>
+            <input type="radio" name="opcao3" value="a"> a) Inicio <br>
+         Escreva("Digite a largura da caixa: ") <br>
+         Leia(largura) <br>
+         Escreva("Digite a altura da caixa: ") <br>
+         Leia(altura) <br>
+         Escreva("Digite a profundidade da caixa: ") <br>
+         Leia(profundidade) <br>
+         volume ← largura * altura * profundidade <br>
+         Escreva("O volume da caixa é: ", volume) <br>
+     Fim
+         </li>
+      <br>
+        <li>
+            <input type="radio" name="opcao3" value="b"> b) Inicio <br>
+        Escreva("Digite a largura da caixa: ") <br>
+        Leia(largura) <br>
+        Escreva("Digite a altura da caixa: ") <br>
+        Leia(altura) <br>
+        Escreva("Digite a profundidade da caixa: ") <br>
+        Leia(profundidade) <br>
+        volume ← largura + altura + profundidade  // ERRO: Deve ser multiplicação, não soma <br>
+        Escreva("O volume da caixa é: ", volume) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao3" value="c"> c) Inicio <br>
+        Escreva("Digite a largura da caixa: ") <br>
+        Leia(largura)
+        Escreva("Digite a altura da caixa: ") <br>
+        Leia(altura) <br>
+        volume ← largura * altura * profundidade  // ERRO: 'profundidade' não foi lida antes <br>
+        Escreva("O volume da caixa é: ", volume) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao3" value="d"> d) Inicio <br>
+        Escreva("Digite a largura da caixa: ") <br>
+        Leia(largura) <br>
+        Escreva("Digite a altura da caixa: ") <br>
+        Leia(altura) <br> 
+        Escreva("Digite a profundidade da caixa: ") <br>
+        Leia(profundidade) <br>
+        volume ← (largura * altura) + profundidade  // ERRO: A profundidade deve ser multiplicada também <br>
+        Escreva("O volume da caixa é: ", volume) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao3" value="e"> e) Inicio <br>
+        Escreva("Digite a largura da caixa: ") <br>
+        Leia(largura) <br>
+        Escreva("Digite a altura da caixa: ") <br>
+        Leia(altura) <br>
+        Escreva("Digite a profundidade da caixa: ") <br>
+        Leia(profundidade) <br>
+        volume ← largura * altura * 10  // ERRO: O correto seria multiplicar por 'profundidade', não por 10 <br>
+        Escreva("O volume da caixa é: ", volume) <br>
+    Fim
+        </li>
+     <br> <br> <br>
+        <button type="button" onclick="verificarEscolha3()">Confirmar</button>
+        <h2 id="resultado3"></h2>
+        <h2 id="respostaCerta3"></h2>
+         <p>
+            04- Soma de Dois Números
+            Escreva um pseudocódigo que solicite ao usuário dois números e exiba a soma deles.           
+         </p>
+         <li>
+            <input type="radio" name="opcao4" value="a"> a) Inicio <br>
+         Escreva("Digite o primeiro número: ") <br>
+         Leia(num1) <br>
+         Escreva("Digite o segundo número: ") <br>
+         Leia(num2) <br>
+         soma ← num1 * num2  // ERRO: Deve ser soma (+), não multiplicação (*) <br>
+         Escreva("A soma dos números é: ", soma) <br>
+     Fim
+         </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao4" value="b"> b) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2) <br>
+        soma ← num1 + 10  // ERRO: Está somando 10 ao invés de 'num2' <br>
+        Escreva("A soma dos números é: ", soma) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao4" value="c"> c) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número:")
+        Leia(num2) <br>
+        soma ← num1 + num2 <br>
+        Escreva("A soma dos números é: ", soma) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao4" value="d"> d) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        soma ← num1 + num2  // ERRO: 'num2' não foi lido antes <br>
+        Escreva("A soma dos números é: ", soma) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao4" value="e"> e) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2) <br>
+        Escreva("A soma dos números é: ", num1, " + ", num2)  // ERRO: Apenas exibe os números sem somar <br>
+    Fim
+        </li>
+     <br> <br> <br>
+        <button type="button" onclick="verificarEscolha4()">Confirmar</button>
+        <h2 id="resultado4"></h2>
+        <h2 id="respostaCerta4"></h2>
+         <p>
+            05- Média Aritmética Simples
+            Escreva um pseudocódigo que receba três números e calcule a média aritmética entre eles.
+         </p>
+         <li>
+            <input type="radio" name="opcao5" value="a"> a) Inicio <br>
+         Escreva("Digite o primeiro número: ") <br>
+         Leia(num1) <br>
+         Escreva("Digite o segundo número: ") <br>
+         Leia(num2) <br>
+         Escreva("Digite o terceiro número: ") <br>
+         Leia(num3) <br>
+         media ← (num1 * num2 * num3) / 3 <br>
+         Escreva("A média dos números é: ", media) <br>
+     Fim
+         </li>
+      <br>
+        <li>
+            <input type="radio" name="opcao5" value="b"> b) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2)
+        Escreva("Digite o terceiro número: ") <br>
+        Leia(num3) <br>
+        media ← num1 + num2 + num3 <br>
+        Escreva("A média dos números é: ", media) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao5" value="c"> c) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2) <br>
+        Escreva("Digite o terceiro número: ") <br>
+        Leia(num3) <br>
+        media ← num1 / 3 + num2 / 3 + num3 / 3 <br> 
+        Escreva("A média dos números é: ", media) <br>
+    Fim
+        </li>
+    <br>
+        <li>
+            <input type="radio" name="opcao5" value="d"> d) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2)
+        Escreva("Digite o terceiro número: ") <br>
+        Leia(num3) <br>
+        media ← (num1 + num2 + num3) / 3 <br>
+        Escreva("A média dos números é: ", media) <br>
+    Fim
+        </li>
+     <br>
+        <li>
+            <input type="radio" name="opcao5" value="e"> e) Inicio <br>
+        Escreva("Digite o primeiro número: ") <br>
+        Leia(num1) <br>
+        Escreva("Digite o segundo número: ") <br>
+        Leia(num2) <br>
+        media ← (num1 + num2 + num3) / 3  <br>
+        Escreva("A média dos números é: ", media) <br>
+    Fim
+        </li>
+     <br> <br> <br>
+        <button type="button" onclick="verificarEscolha5()">Confirmar</button>
+        <h2 id="resultado5"></h2>
+        <h2 id="respostaCerta5"></h2>
+        <p>06- Qual das seguintes opções representa um dos pilares do pensamento computacional?</p>
+        <ol>
+        <li><input type="radio" name="opcao6" value="a"> Multiplicação automática </li> 
+        <li><input type="radio" name="opcao6" value="b"> Decomposição </li> 
+        <li><input type="radio" name="opcao6" value="c"> Uso de planilhas eletrônicas</li>
+        <li><input type="radio" name="opcao6" value="d"> Redes sociais </li>
+        <li><input type="radio" name="opcao6" value="e"> Impressão de relatórios </li> <br> <br> <br>
+        <button type="button" onclick="verificarEscolha6()">Confirmar</button>
+        </ol>
+        <h2 id="resultado6"></h2>
+        <h2 id="respostaCerta6"></h2>
+        <p>07- O que define um algoritmo?</p>
+        <ol>
+        <li><input type="radio" name="opcao7" value="a"> Um conjunto de passos organizados para resolver um problema</li>
+        <li><input type="radio" name="opcao7" value="b"> Um gráfico estatístico de um problema</li>
+        <li><input type="radio" name="opcao7" value="c"> Um hardware responsável pelo processamento de dados</li> 
+        <li><input type="radio" name="opcao7" value="d"> Um compilador que traduz código para linguagem de máquina </li>
+        <li><input type="radio" name="opcao7" value="e"> Um banco de dados estruturado </li>
+        </ol>
+        <h2 id="resultado7"></h2>
+        <h2 id="respostaCerta7"></h2>
+        <button type="button" onclick="verificarEscolha7()">Confirmar</button>
+        <br> <br> <br>
+        <p>08- No fluxograma, qual símbolo é usado para representar a entrada e saída de dados?</p>
+        <ol>
+        <li><input type="radio" name="opcao8" value="a"> Retângulo </li>
+        <li><input type="radio" name="opcao8" value="b"> Losango</li> 
+        <li><input type="radio" name="opcao8" value="c"> Paralelogramo</li> 
+        <li><input type="radio" name="opcao8" value="d"> Círculo</li> 
+        <li><input type="radio" name="opcao8" value="e"> Triângulo</li> 
+        </ol>
+        <h2 id="resultado8"></h2>
+        <h2 id="respostaCerta8"></h2>
+        <button type="button" onclick="verificarEscolha8()">Confirmar</button>
+        <br> <br>
+        <p>09- Qual é o resultado da expressão lógica “(Verdadeiro AND Falso) OR Verdadeiro”?</p>
+        <ol>
+        <li><input type="radio" name="opcao9" value="a"> Verdadeiro</li>
+        <li><input type="radio" name="opcao9" value="b"> Falso</li>
+        <li><input type="radio" name="opcao9" value="c"> Erro de execução</li>
+        <li><input type="radio" name="opcao9" value="d"> Indeterminado</li>
+        <li><input type="radio" name="opcao9" value="e"> Nenhuma das alternativas</li>
+        </ol>
+        <h2 id="resultado9"></h2>
+        <h2 id="respostaCerta9"></h2>
+        <button type="button" onclick="verificarEscolha9()">Confirmar</button>
+        <br> <br>
+        <p>10- Qual das alternativas NÃO é um conceito essencial da lógica de programação?</p>
+        <ol>
+        <li><input type="radio" name="opcao10" value="a"> Variáveis </li>
+        <li><input type="radio" name="opcao10" value="b"> Estruturas de repetição</li>
+        <li><input type="radio" name="opcao10" value="c"> Inteligência artificial</li>
+        <li><input type="radio" name="opcao10" value="d"> Estruturas condicionais</li>
+        <li><input type="radio" name="opcao10" value="e"> Operadores lógicos</li>
+        </ol> <br>
+        <h2 id="resultado10"></h2>
+        <h2 id="respostaCerta10"></h2>
+        <button type="button" onclick="verificarEscolha10()">Confirmar</button>
+        <br> <br>
+        <button type="button" onclick="resultadoFinal()">TOTAL DE PONTOS</button>
+    </form>
+    <h3 id="media"></h3>
+    <h3 id="total"></h3>
+</body>
+<script src="./index.js"></script>
+
+</html>
