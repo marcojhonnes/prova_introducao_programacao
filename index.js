@@ -48,8 +48,8 @@ function verificarEscolha3() {
     
     if (selecionado) {
         document.getElementById('resultado3').innerText = 'Voçê escolheu a  opção: ' +  selecionado.value
-        // document.getElementById('respostaCerta3').innerText = 'A resposta correta é a letra:  e'
-        if (selecionado.value === 'e') {
+        // document.getElementById('respostaCerta3').innerText = 'A resposta correta é a letra:  a'
+        if (selecionado.value === 'a') {
             document.getElementById('respostaCerta3').innerText = 'A resposta está CORRETA'
             document.getElementById('respostaCerta3').style.color = 'green'
             pontos += 1
@@ -70,8 +70,8 @@ function verificarEscolha4() {
     
     if (selecionado) {
         document.getElementById('resultado4').innerText = 'Voçê escolheu a  opção: ' +  selecionado.value
-        // document.getElementById('respostaCerta4').innerText = 'A resposta correta é a letra:  e'
-        if (selecionado.value === 'e') {
+        // document.getElementById('respostaCerta4').innerText = 'A resposta correta é a letra:  c'
+        if (selecionado.value === 'c') {
             document.getElementById('respostaCerta4').innerText = 'A resposta está CORRETA!'
             document.getElementById('respostaCerta4').style.color = 'green'
             pontos += 1
