@@ -1,3 +1,8 @@
+body {
+    
+    margin-left: 30px;
+}
+
 h1 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -40,5 +45,9 @@ input {
     color: black;
     font-size: 105px;
 }
+
+/* li {
+    margin-right: 10px;
+} */
 
 

@@ -78,55 +78,58 @@
          </p>
          <li>
             <input type="radio" name="opcao2" value="a"> a) Inicio <br>
-         Escreva("Digite a base do retângulo: ") <br>
-         Leia(base) <br>
-         Escreva("Digite a altura do retângulo: ") <br>
-         Leia(altura) <br>
-         area ← base + altura   // ERRO: a área deve ser calculada com multiplicação <br>
-         Escreva("A área do retângulo é: ", area) <br>
-     Fim
+            Inicio <br>
+            Escreva("Digite a temperatura em graus Celsius: ") <br>
+            Leia(C) <br>
+            F ← (C * 9 / 5) + 32 <br>
+            Escreva("A temperatura em Fahrenheit é: ", F) <br>
+        Fim
+        
          </li>
       <br>
 
       <li>
         <input type="radio" name="opcao2" value="b"> b) Inicio <br>
-      Escreva("Digite a base do retângulo: ") <br>
-      Escreva("Digite a altura do retângulo: ") <br>
-      Leia(base) <br>
-      area ← base * altura <br>
-      Escreva("A área do retângulo é: ", area) <br>
-  Fim      
+        Inicio <br>
+        Escreva("Digite a temperatura em graus Celsius: ") <br>
+        Leia(C) <br>
+        F ← (C + 32) * 9 / 5  // ERRO: O 32 deve ser somado após a multiplicação <br>
+        Escreva("A temperatura em Fahrenheit é: ", F) <br>
+    Fim
+    
       </li>
      <br>
         <li>
             <input type="radio" name="opcao2" value="c"> c) Inicio <br>
-        Escreva("Digite a base do retângulo: ") <br>
-        Leia(altura) <br>
-        Escreva("Digite a altura do retângulo: ") <br>
-        Leia(base) <br>
-        area ← base * altura <br>
-        Escreva("A área do retângulo é: ", area) <br>
-    Fim <br>
+            Inicio <br>
+            Escreva("Digite a temperatura em graus Celsius: ") <br>
+            Leia(C) <br>
+            F ← C * 5 / 9 + 32  // ERRO: O coeficiente correto é 9/5, não 5/9 <br>
+            Escreva("A temperatura em Fahrenheit é: ", F) <br>
+        Fim
+        
         </li>
      <br>
         <li>
             <input type="radio" name="opcao2" value="d"> d) Inicio <br>
-        Escreva("Digite a base do retângulo: ") <br>
-        Leia(base) <br>
-        Escreva("Digite a altura do retângulo: ") <br>
-        Leia(altura) <br>
-        area ← base * altura <br>
-        Escreva("A área do retângulo é: ", area) <br>
-    Fim
+            Inicio <br>
+            Escreva("Digite a temperatura em graus Celsius: ") <br>
+            Leia(C) <br>
+            F ← C * 9 / 5  // ERRO: Falta adicionar +32 ao final <br>
+            Escreva("A temperatura em Fahrenheit é: ", F) <br>
+        Fim <br>
+        
         </li>
      <br>
      <li>
         <input type="radio" name="opcao2" value="e"> e) Inicio <br>
-     base ← 10 <br>
-     altura ← 5 <br>
-     area ← base * altura <br>
-     Escreva("A área do retângulo é: ", area) <br>
- Fim <br>
+        Inicio <br>
+        Escreva("Digite a temperatura em graus Celsius: ") <br>
+        Leia(C) <br>
+        F ← 9 / 5 * (C + 32)  // ERRO: O 32 deve ser somado no final, não dentro da multiplicação <br>
+        Escreva("A temperatura em Fahrenheit é: ", F) <br>
+    Fim
+    
      </li>
      <br> <br> <br>
         <button type="button" onclick="verificarEscolha2()">Confirmar</button>

@@ -27,8 +27,8 @@ function verificarEscolha2() {
     
     if (selecionado) {
         document.getElementById('resultado2').innerText = 'Voçê escolheu a  opção: ' +  selecionado.value
-        // document.getElementById('respostaCerta2').innerText = 'A resposta correta é a letra:  b'
-        if (selecionado.value === 'b') {
+        // document.getElementById('respostaCerta2').innerText = 'A resposta correta é a letra:  a'
+        if (selecionado.value === 'a') {
             document.getElementById('respostaCerta2').innerText = 'A resposta está CERTA'
             document.getElementById('respostaCerta2').style.color = 'green'
             pontos += 1
